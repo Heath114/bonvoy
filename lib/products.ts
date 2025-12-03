@@ -1,0 +1,185 @@
+import { Product } from '@/types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    slug: 'classic-chocolate-chip-cookies',
+    name: 'Classic Cookies',
+    description: 'Freshly baked chocolate chip cookies with premium dark chocolate chunks. Crispy on the outside, soft and chewy on the inside.',
+    price: 12.99,
+    category: 'cookies',
+    image: '/2.webp',
+    inStock: true,
+    featured: true,
+    ingredients: ['Flour', 'Butter', 'Sugar', 'Eggs', 'Chocolate Chips', 'Vanilla Extract'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+  {
+    id: '2',
+    slug: 'red-velvet-cake',
+    name: 'Red Velvet Cake',
+    description: 'Luxurious red velvet cake with cream cheese frosting. Perfect for special occasions or treating yourself.',
+    price: 45.99,
+    category: 'cakes',
+    image: '/images/red-velvet-cake.jpg',
+    inStock: true,
+    featured: true,
+    ingredients: ['Flour', 'Cocoa Powder', 'Buttermilk', 'Eggs', 'Cream Cheese', 'Butter'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 8,
+  },
+  {
+    id: '3',
+    slug: 'vanilla-cupcakes',
+    name: 'Vanilla Cupcakes',
+    description: 'Light and fluffy vanilla cupcakes topped with smooth buttercream frosting. Available in a dozen.',
+    price: 24.99,
+    category: 'cupcakes',
+    image: '/images/vanilla-cupcakes.jpg',
+    inStock: true,
+    ingredients: ['Flour', 'Sugar', 'Butter', 'Eggs', 'Vanilla Extract', 'Milk'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+  {
+    id: '4',
+    slug: 'double-fudge-brownies',
+    name: 'Double Fudge Brownies',
+    description: 'Rich and decadent chocolate brownies with a fudgy center. Chocolate lover\'s dream!',
+    price: 18.99,
+    category: 'brownies',
+    image: '/images/fudge-brownies.jpg',
+    inStock: true,
+    featured: true,
+    ingredients: ['Chocolate', 'Butter', 'Sugar', 'Eggs', 'Flour', 'Cocoa Powder'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 9,
+  },
+  {
+    id: '5',
+    slug: 'oatmeal-raisin-cookies',
+    name: 'Oatmeal Raisin Cookies',
+    description: 'Wholesome oatmeal cookies packed with plump raisins and a hint of cinnamon.',
+    price: 11.99,
+    category: 'cookies',
+    image: '/images/oatmeal-raisin-cookies.jpg',
+    inStock: true,
+    ingredients: ['Oats', 'Flour', 'Raisins', 'Butter', 'Brown Sugar', 'Eggs', 'Cinnamon'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+  {
+    id: '6',
+    slug: 'strawberry-shortcake',
+    name: 'Strawberry Shortcake',
+    description: 'Light sponge cake layered with fresh strawberries and whipped cream. A summer favorite!',
+    price: 38.99,
+    category: 'cakes',
+    image: '/images/strawberry-shortcake.jpg',
+    inStock: true,
+    ingredients: ['Flour', 'Eggs', 'Sugar', 'Fresh Strawberries', 'Heavy Cream', 'Vanilla'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 8,
+  },
+  {
+    id: '7',
+    slug: 'chocolate-cupcakes',
+    name: 'Chocolate Cupcakes',
+    description: 'Moist chocolate cupcakes with rich chocolate ganache frosting. Pure chocolate bliss.',
+    price: 26.99,
+    category: 'cupcakes',
+    image: '/images/chocolate-cupcakes.jpg',
+    inStock: true,
+    ingredients: ['Flour', 'Cocoa Powder', 'Sugar', 'Eggs', 'Buttermilk', 'Dark Chocolate'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+  {
+    id: '8',
+    slug: 'lemon-drizzle-cake',
+    name: 'Lemon Drizzle Cake',
+    description: 'Tangy lemon cake with a sweet glaze. Light, refreshing, and utterly delicious.',
+    price: 32.99,
+    category: 'cakes',
+    image: '/11.webp',
+    inStock: true,
+    ingredients: ['Flour', 'Butter', 'Sugar', 'Eggs', 'Fresh Lemons', 'Lemon Zest'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 10,
+  },
+  {
+    id: '9',
+    slug: 'peanut-butter-cookies',
+    name: 'Peanut Butter Cookies',
+    description: 'Classic peanut butter cookies with a perfect crumbly texture and rich peanut flavor.',
+    price: 13.99,
+    category: 'cookies',
+    image: '/2.webp',
+    inStock: true,
+    ingredients: ['Peanut Butter', 'Flour', 'Sugar', 'Eggs', 'Butter', 'Vanilla Extract'],
+    allergens: ['Wheat', 'Eggs', 'Dairy', 'Peanuts'],
+    servings: 12,
+  },
+  {
+    id: '10',
+    slug: 'salted-caramel-brownies',
+    name: 'Salted Caramel Brownies',
+    description: 'Fudgy brownies swirled with homemade salted caramel. Sweet and salty perfection.',
+    price: 21.99,
+    category: 'brownies',
+    image: '/2.webp',
+    inStock: true,
+    ingredients: ['Chocolate', 'Butter', 'Sugar', 'Eggs', 'Flour', 'Caramel', 'Sea Salt'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 9,
+  },
+  {
+    id: '11',
+    slug: 'smores-cookies',
+    name: 'S\'mores Cookies',
+    description: 'Indulgent cookies with graham cracker crumbs, chocolate chunks, and gooey marshmallow pieces. A campfire classic reimagined.',
+    price: 14.99,
+    category: 'cookies',
+    image: '/11.webp',
+    inStock: true,
+    featured: true,
+    ingredients: ['Flour', 'Butter', 'Graham Crackers', 'Chocolate', 'Marshmallows', 'Sugar'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+  {
+    id: '12',
+    slug: 'chocolate-chunk-cookies',
+    name: 'Chocolate Chunk Cookies',
+    description: 'Premium dark chocolate chunks in every bite. These cookies are crispy on the edges and chewy in the center.',
+    price: 13.99,
+    category: 'cookies',
+    image: '/3.webp',
+    inStock: true,
+    featured: true,
+    ingredients: ['Flour', 'Butter', 'Sugar', 'Eggs', 'Dark Chocolate', 'Vanilla'],
+    allergens: ['Wheat', 'Eggs', 'Dairy'],
+    servings: 12,
+  },
+];
+
+export const getFeaturedProducts = (): Product[] => {
+  return products.filter(product => product.featured);
+};
+
+export const getProductsByCategory = (category: string): Product[] => {
+  return products.filter(product => product.category === category);
+};
+
+export const getProductById = (id: string): Product | undefined => {
+  return products.find(product => product.id === id);
+};
+
+export const getProductBySlug = (slug: string): Product | undefined => {
+  return products.find(product => product.slug === slug);
+};
+
+export const getAllProductSlugs = (): string[] => {
+  return products.map(product => product.slug);
+};
