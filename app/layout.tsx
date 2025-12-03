@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sweet Treats Bakery - Handcrafted Cookies, Cakes & More",
+  title: "Bonvoy Cookies - Handmade Delights",
   description: "Shop our delicious selection of handcrafted cookies, cakes, cupcakes, and brownies. Made fresh daily with love.",
 };
 
